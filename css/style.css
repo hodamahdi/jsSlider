@@ -1,0 +1,62 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+.item 
+{
+    position: relative;
+cursor: pointer;
+
+}
+.item-caption
+{
+    width:80%;
+     background-color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    text-align: center;
+   
+}
+.layer
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0,0,0,.5);
+}
+.layerImg
+{
+    width: 40%;
+    height: 500px;
+    margin: auto;
+    background-image: url(../image/portfolio-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+   
+}
+.layerImg i
+{
+  font-size: 1.5rem;
+  margin: .5rem;
+  cursor: pointer;
+}
+#close
+{
+    position: absolute;
+    left: 90%;
+    top: 10px;
+}
+
+
+@media  screen and (max-width:768px)  {
+    .layerImg {
+        width: 100%;
+    }
+}
